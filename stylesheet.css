@@ -1,0 +1,47 @@
+.header{
+	margin-top: -5%; 
+	width: auto;
+	height: 20%;
+	background-color: #7D0000;
+}
+.title{
+	font-family: relaxed;
+	color: white;
+	text-align: center;
+	font-size: 5em;
+}
+.body{
+	font-family: relaxed;
+	color: white;
+	text-align: center;
+	font-size: 3em;
+}
+
+body{
+	margin:0;
+	background-image:url(img/background.png);
+	background-repeat:repeat;
+}
+
+@font-face{
+	font-family: relaxed;
+	src:url(fonts/relaxed.ttf);
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.links{
+	margin-top: 40px;
+	margin-left: 20%;
+	width: 100px;
+	height: 100px;
+	background-color: #7D0000;
+	display: inline-block;
+	border-radius: 10px;
+}
+img {
+  display: inline-block;
+  vertical-align: middle;
+  max-height: 100%;
+  max-width: 100%;
+}
