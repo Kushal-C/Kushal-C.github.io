@@ -2,7 +2,7 @@
 	margin-top: -5%; 
 	width: auto;
 	height: 20%;
-	background-image:url(img/background2.png);
+	background: rgba(125,0,0,.5);
 	
 }
 .title{
@@ -29,7 +29,7 @@ body{
 	margin:0;
 	background-image:url(img/background.png);
 	background-repeat:repeat;
-	overflow-y:hidden;
+	
 }
 
 @font-face{
