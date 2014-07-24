@@ -29,6 +29,7 @@ body{
 	margin:0;
 	background-image:url(img/background.png);
 	background-repeat:repeat;
+	overflow-y:hidden;
 }
 
 @font-face{
