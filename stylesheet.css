@@ -6,7 +6,7 @@ html {
 body {
 	background-image: url("img/background.jpg");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
 	
 	overflow: hidden;
 }
@@ -26,7 +26,7 @@ img {
 }
 
 /* Text on page */
-h1:hover {
+b:hover {
 	color: red;
 }
 h1 {
@@ -35,9 +35,6 @@ h1 {
 	color: white;
 	margin-left: 20px;
 	margin-bottom: 80px;
-}
-p:hover {
-	color: red;
 }
 p {
 	font-size: 80px;
