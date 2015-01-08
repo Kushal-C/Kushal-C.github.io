@@ -7,7 +7,7 @@ body {
 	background-image: url("img/background.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	margin-left: 100px;
+	
 	overflow: hidden;
 }
 
@@ -26,12 +26,18 @@ img {
 }
 
 /* Text on page */
+h1:hover {
+	color: red;
+}
 h1 {
 	font-size: 40px;
 	text-align: left;
 	color: white;
 	margin-left: 20px;
 	margin-bottom: 80px;
+}
+p:hover {
+	color: red;
 }
 p {
 	font-size: 80px;
@@ -47,6 +53,7 @@ p {
     -moz-font-smoothing: antialiased;
     font-smoothing: antialiased;
     font-family: fonty, sans-serif ;
+    margin-left: 100px;
 }
 
 #content {
@@ -56,4 +63,5 @@ p {
 
 #footer {
 	margin-top: 40px;
+	margin-left: 100px;
 }
