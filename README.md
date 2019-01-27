@@ -1,4 +1,4 @@
-persona-website
+personal-website
 ===============
 
 My personal website
